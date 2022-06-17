@@ -1,0 +1,116 @@
+#img_prat{
+    height: 50px;
+    width: 130px;
+    margin-left: 150px;
+    margin-top: 10px;
+   
+}#main_content{
+    height: 600px;
+    width: 1200px;
+    /* border:1px solid; */
+    margin:auto;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#upper_part{
+    height: 200px;
+    width: 100%;
+    
+}#upper_top{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}#upper_bottom{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}#upper_top>div{
+    width: 45%;
+    
+}#upper_bottom>div{
+    width: 45%;
+    
+}
+.h4_prat{
+    margin-bottom: 3px;
+    margin-top: 15px;
+}#cities_list{
+    height: 60%;
+    width: 100%;
+    border-radius: 5px;
+}#store_list{
+    height: 60%;
+    width: 100%;
+    border-radius: 5px;
+}#Give_date{
+    height: 57%;
+    width: 100%;
+    border-radius: 5px;
+}#mobile_inp{
+    height: 55%;
+    width: 100%;
+    border-radius: 5px;
+}#choose-word{
+    height: 50px;
+    width: 100%;
+    
+}#actual_choose{
+    height: 350px;
+    width: 100%;
+    
+}#slots_time{
+    width: 90%;
+    height: 230px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    cursor: pointer;
+    margin: auto;
+    
+}#slots_time>div{
+    margin-left: 10px;
+    height: auto;
+    border-radius: 5px;
+    
+}.button_prat{
+    background-color:#7DB72C;
+    margin-left: 10px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}.button_prat:hover{
+    transform: scale(1.2);
+    
+}
+#OTP{
+    height: 90px;
+    width: 90%;
+    margin: auto;
+}.h5_prat{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}#logo{
+    height: 10px;
+    width:20px;
+}
+#label_prat{
+   padding:10px;
+   padding-left:15px;
+    color:white
+}
+#radio_prat{
+    margin-left:15px;
+}
+#OTP > button{
+    background-color: #7DB72C;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:10px;
+}
